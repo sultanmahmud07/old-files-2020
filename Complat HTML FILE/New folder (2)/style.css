@@ -1,0 +1,96 @@
+body{
+  background: url(kitten-Hd_4k_desktop_wallpaper_photos-530.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.topbar{
+    background: linear-gradient(#000000ab,#000000ab);
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.topbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+
+
+}
+.topbar li{
+  display: inline-block;
+  padding-left: 5px;
+  position: relative;
+
+}
+.topbar a{
+    text-decoration: none;
+    background-color: #a9a9a9003;
+    color:white;
+    display:block;
+    padding:15px 30px;
+    border-radius:5px;
+    transition: 0.5s;
+
+
+}
+.topbar a:hover{
+    background-color: rgba(169, 169, 169, 0.575);
+
+}
+.loginbox{
+  width: 300px;
+  background:linear-gradient(#000000b8,#000000b8), url(sk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin: auto;
+  margin-top: 200px;
+  box-shadow: 0px 0px 41px -10px black;
+
+}
+
+.loginbox h2{
+  text-align: center;
+  font-size: 20px;
+  font-family: gredian black;
+  padding: 20px;
+  color: green;
+
+}
+.loginbox p{color: white;
+  
+}
+
+.loginbox input{
+  display: block;
+  width: 92%;
+  background-color:#ecececad ;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.loginbox .submitbtn{
+  background-color: green !important; 
+   color: white;
+   width: 100% !important;
+   border-radius: 25px;
+   margin-bottom: 20px !important;
+   cursor: pointer;
+}
+
+.loginbox .submitbtn:hover{
+  background-color: red !important;
+  color: white;
+  transform: scale(1.1);
+
+}

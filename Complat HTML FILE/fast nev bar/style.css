@@ -1,0 +1,21 @@
+ul{padding: 0;margin: 0; list-style: none;text-align: left;}
+
+li{display: inline-block;padding-right: 5px;position: relative;}
+
+a{text-decoration: none;
+background-color: dodgerblue;
+color: white;
+padding: 10px 25px;
+display: block;
+transition: 0.5s;
+border-radius: 5px;}
+
+a:hover{background-color: tomato;color: white;}
+
+ul ul{position:absolute ;left: -99999px;top:39px; width: 200px;}
+ul li:hover ul{left: 0;}
+
+ul ul a{border-radius: 0; background-color: black; border-bottom: 1px solid white;}
+ul ul a:hover{background-color: blue;}
+
+

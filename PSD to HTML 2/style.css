@@ -1,0 +1,93 @@
+/*=================================================
+               common css hear
+=================================================*/
+body{
+  color: #666666;
+  font-size: 16px;
+  font-family: Georgia, sans-serif;
+  margin: 0px;
+  line-height: 1.5em;
+}
+.container {
+  max-width: 960px;
+  width: 96%;
+  margin: 0 auto;
+}
+ima{
+  max-width: 100%;
+  height: auto;
+
+}
+
+/*==================================================
+      top header section css hear
+==================================================*/
+div#header_top {
+  background: #ba2e1f;
+  padding: 15px 0px;
+}
+
+.header_top_wrapper {
+  overflow: hidden;
+}
+
+.left_containt {
+  width: 70%;
+  clear: both;
+  float: left;
+}
+
+.left_containt ul {
+  list-style: none;
+  justify-content: left;
+margin: 0px;}
+
+.left_containt ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.left_containt ul li ::after{
+  contain: " ";
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  top: 5px;
+  left: 20px;
+  color: white;
+  background-color: white;
+  border-right: 2px solid black;
+}
+
+.left_containt ul li a {
+  color: #ffffff;
+font-size: 14px;
+display: block;
+
+text-decoration: none;
+transition: 0.5s;
+}
+.left_containt ul li a:hover{
+  color: rebeccapurple;
+} 
+
+.surch_side {
+  float: right;
+  width: 30%;
+}
+.surch_side form {width: 100%;background: white;border-radius: 20px;overflow: hidden;}
+
+.surch_side input {border: none;float: left;padding: 5px;margin-left: 5px;width: 65%;outline: none;}
+
+.surch_side input[type="submit"]{
+  float: right;
+  width: 40px;
+  background: url(image/scurch.png);
+  background-repeat: no-repeat;
+  background-position: center
+  background-size: ;
+  margin-top: 5px;
+  
+}

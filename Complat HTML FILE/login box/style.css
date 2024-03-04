@@ -1,0 +1,82 @@
+body{
+  background: grey;
+}
+.loginbox h2{
+  text-align: center;
+  text-transform: capitalize;
+   font-size: 30px;
+   color: green;
+   
+   padding-bottom: 10px;
+   text-shadow: 4px 0px 2px black;;
+
+}
+
+.loginbox{
+
+  width: 300px;
+  background:linear-gradient(#000000b8,#000000b8), url(sk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin: auto;
+  margin-top: 230px;
+  box-shadow: 0px 0px 41px -10px black;
+
+}
+
+.loginbox:hover{
+
+  transform: scale(1.1);
+}
+
+
+.loginbox input{
+    display: block;
+    width: 92%;
+    background-color:#ecececad ;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+
+
+}
+
+
+.inputbtn{
+   background-color: green !important; 
+   color: white;
+   width: 100% !important;
+   border-radius: 25px;
+   margin-bottom: 20px !important;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+}
+.inputbtn:hover{
+  background-color: rgb(255, 38, 0) !important;
+   transform: scale(0.9);
+} 
+
+
+
+.forgetset{
+  text-align: center;
+  
+  font-size: 18px;
+}
+.forgetset a{
+  text-decoration: none;
+  color: green;
+
+}
+.forgetset a:hover{color: red;}
+
+.forgetset span{
+  color: #a09d9d;
+
+}
+

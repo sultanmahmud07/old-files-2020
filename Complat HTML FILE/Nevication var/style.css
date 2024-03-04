@@ -1,0 +1,9 @@
+ul{padding: 0px;margin: 0Px;list-style: none;text-align: left;}
+li{display: inline-block;padding-right: 5px;position: relative;}
+a{text-decoration: none; background-color: turquoise;color: white;padding: 10px 25px;display: block;border-radius: 5px;transition: 0.5s;}
+a:hover{background-color: green;}
+
+ul ul{position: absolute;left: -99999px;top: 38px;width: 200px;}
+ul li:hover ul{left: 0px;}
+ul ul a{border-radius: 0px;}
+ul ul a:hover{background-color: greenyellow;}

@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+body{
+  
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+/**=======================================================
+             Header section started hear
+=======================================================**/
+header#header_s {
+  background: #e0e0e0;
+}
+.h_wrapper {
+  overflow: hidden;
+}
+
+.logo {
+  width: 320px;
+  float: left;
+}
+
+.N_bar {
+  width: 575px;
+  float: right;
+  margin-top: 23px;
+  text-align: right;
+}
+
+.logo h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.logo h2 span {
+  font-size: 47px;
+  color: #ff411f;
+}
+.N_bar ul {
+  list-style: none;
+}
+
+.N_bar ul li {
+  padding-right: 0px;
+}
+
+.N_bar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.N_bar ul li a:hover{
+  color: #ff411f;
+}
+.N_bar ul li a:first-child{
+  color: #ff411f;
+}
+
+/**=======================================================
+             Header section end hear
+=======================================================**/
+#banner_s{
+  background-image: linear-gradient(#000000c4,#000000c4), url(-177770941.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.hero_wrapper {
+  overflow: hidden;
+}
+
+.left_hero {
+  width: 570px;
+  float: left;
+}
+
+.right_hero {
+  width: 570px;
+  float: right;
+  margin-top: 243px;
+}
+
+.head_line {
+  width: 325px;
+  margin-top: 141px;
+  font-size: 35px;
+  font-family: monospace;
+  color: #ff411f;
+  font-weight: bold;
+  overflow: hidden;
+}
+.head_line h2 {
+  font-size: 40px;
+}
+
+.d_s h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.right_hero h3 {
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 1px solid #ff411f;
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+.right_hero p {
+  color: white;
+}
+
+
+
+.buttom_sec a {
+  cursor: pointer;
+  text-decoration: none;
+  /* padding: 5px 20px; */
+  font-size: 25px;
+  font-family: none;
+  color: white;
+  border: 2px solid #ff411f;
+  /* width: 147px; */
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.buttom_sec {
+  margin-top: 100px;
+  text-align: center;
+  width: 1140px;
+  margin: auto;
+  margin-top: 100px;
+}

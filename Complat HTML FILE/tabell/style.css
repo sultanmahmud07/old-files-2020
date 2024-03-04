@@ -1,0 +1,8 @@
+body{background:darksalmon}
+h1{text-align: center;color: blue;font-size: 50px;}
+p{font-size:20px;text-align: justify;}
+img{width: 1000px;}
+table{width: 100%;border-collapse:collapse;}
+table th{background-color: forestgreen;color: white;padding: 10px;border: 1px solid black;}
+table td{border: 1px solid black;padding: 5px; text-align: center;background-color:lightyellow}
+.p2{text-align: justify;font-size: 20px; }

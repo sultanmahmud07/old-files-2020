@@ -1,0 +1,262 @@
+h1{
+  
+  background-color:green;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 5px;
+
+}
+
+
+
+.sultan{
+  font-size: 30px;
+  text-align: center;
+  color: orange;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+}
+
+.sultan::after{
+  position: absolute;
+  content: "";
+   background-color: orange;
+   width: 150px;
+   height: 5px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -75px;
+    padding-bottom: 5p;
+   
+  }
+
+.sultan::before{
+  position: absolute;
+   content: "";
+    background-color: orange;
+     width: 150px;
+      height: 5px;top: 0px;
+      right: 50%;
+      margin-right: -75px;
+    
+    }
+
+
+
+    .container{
+      width: 1040px;
+      margin: auto;
+    }
+
+   
+      .news-iner {
+        background-color: orange;
+        color: white;
+        
+        font-size: 26px;
+        font-weight: 72px;
+        overflow: hidden;
+    }
+
+    .news_titel {
+      width: 150px;
+      float: left;
+      font-size: 15px;
+      text-align: center;
+      margin-top: px;
+      background-color: green;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-size: 16px;
+      font-family: arial black;
+  }
+
+  .news_descreption {
+    width: 889
+px;
+    float: right;
+    color: white;
+    font-size: 38px;
+    width: 890
+    px;
+    width: 890px;
+}
+
+
+
+
+
+
+
+a{
+  background-color: green;
+  padding: 10px 30px;
+  display: inline-block;
+   border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s
+  
+  }
+
+a:hover{
+  background-color: yellow;
+  color: black;
+  border:1px solid black;
+
+}
+
+
+.logo{
+  width: 120px;
+   height: auto;
+  
+  }
+
+li:nth-child(2n+1){color: brown;}
+
+span{color: black;}
+
+
+
+
+
+img{width: 100%;}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+
+table th{
+  background-color: darkgreen;
+  color: white;
+  padding: 10px;
+
+}
+
+
+
+table td{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+
+}
+
+
+div.body{color: black;}
+
+
+div.body::first-letter{
+  font-size: 40px;
+  color: brown;
+
+}
+
+.meed{
+
+ width: 750px;
+ margin: auto;
+
+}
+
+.prothomalo, .dealystar, .doinik{
+   background-color: green;
+   color:white ;
+   text-transform: uppercase;
+   text-align: center;
+   font-family: monospace;
+   padding: 10px;
+   width: 200px;
+   float: left;
+   border-right: 1px solid white;
+
+
+}
+
+
+marquee {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+section#bracking-news {
+    margin-bottom: 50px;
+}
+
+.news_descreption {}
+
+
+
+
+             /**This is transition hear.**/
+
+
+#transition-test{
+  color: rgb(224, 32, 32);
+  margin: 60px 0px;
+  
+}
+
+.container{
+  width: 1140px;
+  padding: 0px;
+  margin: auto;
+}
+
+.transition_heas_line{
+  text-align: center;
+  margin: 20px 0px;
+} 
+.transition_heas_line h2{
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 6px solid rgb(252, 43, 6);
+  border-bottom-right-radius: 5px;
+}
+
+.div1, .div2, .div3, .div4, .div5{
+  background-color: #fa320e;
+  color: wheat;
+  width: 200px;
+  font-family: arial black;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  
+}
+
+.div1:hover{
+  width: 900px;
+  transition-timing-function: linear;
+  
+}
+.div2:hover{
+  width: 900px;
+  transition-timing-function: ease;
+}
+
+.div3:hover{
+  width: 900px;
+  transition-timing-function: ease-in;
+}
+.div4:hover{
+  width: 900px;
+  transition-timing-function: ease-out;
+}
+.div5:hover{
+  width: 900px;
+  transition-timing-function: ease-in-out;
+}

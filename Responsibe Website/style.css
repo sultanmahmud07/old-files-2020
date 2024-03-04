@@ -1,0 +1,23 @@
+body{
+  margin: 0px;}
+  
+  .container{
+    width: 90vw;
+    border: 2px solid red;
+    margin: auto;
+    text-align: center;
+    height: 90vh;
+    margin-bottom:px;
+    overflow: hidden;
+  }
+  header#header_sec {
+    padding: 5px;
+  }
+  
+  h1#fast {
+    font-size: 4em;
+    padding: 0;
+  }
+  h1#srcuend {
+    font-size: 8em;
+}

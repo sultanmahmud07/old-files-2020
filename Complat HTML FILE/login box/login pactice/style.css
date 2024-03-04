@@ -1,0 +1,120 @@
+body{background:  url(664632aada8327014297b719b228f4f2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#topbar {
+
+}
+
+#topbar .manu ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+ 
+ 
+}
+
+#topbar .manu li{
+  display: inline-block;
+  position: relative;
+  
+ 
+}
+
+#topbar .manu a{
+  text-decoration: none;
+  color: white;
+  background-color: #3b3e3b57;
+  transition: 0.5s;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 25px;
+  display: block;
+}
+
+#topbar .manu a:hover{
+  background-color: green;
+}
+
+#topbar .manu ul ul{
+position:absolute;
+top: 40px;
+left: -99999px;
+width: 200px;
+
+text-align:left;
+
+}
+
+#topbar .manu ul li:hover ul{left: 0px;}
+
+#topbar .manu ul ul a{
+  border-radius: 0px;
+  border: none;
+  border-top: 1px solid white;
+  background-color: #000000a6;
+}
+
+
+
+
+
+.loginbox{
+  width: 300px;
+  margin:   auto    ;
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 15px 0px;
+}
+
+input{
+  width: 92%;
+  padding: 10px;
+  border: none;
+  background-color: gainsboro;
+}
+p{
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 5px;
+   
+}
+
+.loginbox h2{
+  text-align: center;
+  color: green;
+  text-transform: capitalize;
+  font-size: 30px;
+  text-shadow: 1px 4px 4px;
+}
+.loginbtn{
+  width: 98% !important;
+  border-radius: 25px;
+  outline: none;
+  color:white;
+  background-color: green;
+}
+.loginbtn:hover{
+  background-color: red;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.new{
+  text-align: center;
+  color: black;
+}
+.new a{
+  text-decoration: none;
+  color: red;
+  margin-right: 5px;
+}
+.new a:hover{
+  color: green;
+}
